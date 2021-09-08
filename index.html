@@ -29,25 +29,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About </a>
+                <a class="nav-link" href="#about-us">About </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu </a>
+                <a class="nav-link" href="#menu">Menu </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Specials</a>
+                <a class="nav-link" href="#reservation">Specials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Chefts</a>
+                <a class="nav-link" href="#chefts">Chefs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact-us">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -55,15 +55,15 @@
                   Reservation
                 </a>
                 <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Available tables</a></li>
+                  <li><a class="dropdown-item" href="#reservation">Available tables</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">Available rooms</a></li>
+                  <li><a class="dropdown-item" href="#reservation">Available rooms</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">Make a reservation</a>
+                  <li><a class="dropdown-item" href="#reservation">Make a reservation</a>
                   </li>
                 </ul>
               </li>
@@ -140,12 +140,12 @@
     <p class="paragraph-choose text-center ">Why Choose Our Restaurant</p>
     <div class="container text-center">
       <div class="row g-4">
-        <div class="col-md-4 box1 mr-2 p-4 gr-2">
+        <div class="col-sm-4 box1 mr-2 p-4 gr-2">
           <h1 class="number">01.</h1>
           <h3>Lorem Dolor.</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p>
         </div>
-        <div class="col-md-4 box1 mr-2 p-4">
+        <div class="col-sm-4 box1 mr-2 p-4">
           <h1 class="number">02.</h1>
           <h3>Lorem Ipsum</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p>
@@ -182,7 +182,7 @@
         <div class="col-md-6 mb-3">
           <img src="img/bread-barrel.jpg " class="menu-img text-center m-1" alt="">
           <a href="#" class="link-menu text-center">Bread barrel</a>
-          <p >Kshs 800</p>
+          <p>Kshs 800</p>
         </div>
       </div>
       <div class="row row-menu">
@@ -224,39 +224,225 @@
                 <a href="#" class="link-menu text-center">Lobster </a>
                 <p>Kshs 1200</p>
               </div>
-        </div>
-      </div>
+            </div>
+          </div>
   </section>
   <!-- end of menu-->
   <!-- book a table-->
   <section class="reservation" id="reservation">
-    <h2 class=" mt-5 about-line">RESERVATION</h2>
+    <h2 class=" mt-5 about-line text-center reservation-line">RESERVATION</h2>
     <p class="paragraph-choose text-center ">Book a Table</p>
     <div class="container">
+      <div class="row m-4">
+        <div class="col-md-4 mb-4">
+          <input type="text" class="form-control border border-primary" id="validationDefault01" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-4 mb-4">
+          <input type="email" class="form-control" id="validationDefault02" placeholder="Your Email" required>
+        </div>
+        <div class="col-md-4 mb-4">
+          <input type="number" class="form-control" id="validationDefault02" placeholder="Your Phone number" required>
+        </div>
+      </div>
+      <div class="row m-4">
+        <div class="col-md-4 mb-4">
+          <input type="date" class="form-control" id="validationDefault01"  required>
+        </div>
+        <div class="col-md-4 mb-4">
+          <input type="time"  class="form-control" id="validationDefault02" placeholder="Your Email" required>
+        </div>
+        <div class="col-md-4 mb-4">
+          <input type="number"  class="form-control" id="validationDefault02" placeholder="Number of people" required>
+        </div>
+        <div class="col-md-12 mt-4 mb-4 text-center">
+          <textarea class="form-control " id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+        </div>
+      </div class="text-center"  >
+      <input class="send-m text-center" style="width: 100%; margin-left: 500px !important; margin-top: 5px !important; margin-bottom: 12px;"  type="button" value="Submit">
+    </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- end of reservation-->
+  <!-- ====chefs section=====-->
+  <section class="chefs" id="chefs">
+    <h2 class=" mt-5 about-line text-center reservation-line">Chefs</h2>
+    <p class="paragraph-choose text-center ">Our Proffesional Chefs</p>
+    <div class="container">
       <div class="row">
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="col-md-4 mb-2 ">
+          <div class="card bg-light card1">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/26.jpg" class="rounded-circle mb-3" alt="">
+              <h3 class="card-title mb-3 color-black">MARY</h3>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></i></a>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+              <h3 class="card-title mb-3 color-black">JACK</h3>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></i></a>
+            </div>
           </div>
-          
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/20.jpg" class="rounded-circle mb-3" alt="">
+              <h3 class="card-title mb-3 color-black">WILLIE</h3>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></i></a>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   </section>
-  
-  <!-- end of reservation-->
+<!-- ===end of chefs section=====-->
 
+<!-- ===contact us  section=====-->
+<section class="contact-us" id="contact-us">
+  <h2 class=" mt-5 about-line text-center reservation-line">Contact Us</h2>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2418.4490903219535!2d34.75474144415327!3d0.29107047157735844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17803c37cdba7711%3A0xd7380a06dc908a6a!2sKakamega!5e0!3m2!1sen!2ske!4v1631089537067!5m2!1sen!2ske"
+         width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>Kakamega - Mumias Road</p>
+          </div>
+          <div class="open-hours">
+            <i class="bi bi-clock"></i>
+            <h4>Open hours:</h4>
+            <p>
+              Monday- Saturday <br>
+              6:00 am to 7:00pm
+            </p>
+          </div>
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p> phoenix@gmail.com</p>
+          </div>
+          <div class="call">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>0740431425</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 input">
+        <div class="row  m-2">
+          <div class="col-md-6 mb-2">
+            <input type="text" class="form-control border border-primary" id="validationDefault01" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 mb-2">
+            <input type="text" class="form-control border border-primary" id="validationDefault01" placeholder="Your Email" required>
+          </div>
+          <div class="row  m-2">
+            <div class="col-md-12">
+              <input type="text" style="width: 100%;"  class="form-control border border-primary" id="validationDefault01" placeholder="Subject" required>
+            </div>
+        </div>
+        <div class="row m-2">
+          <div class="col-md-12">
+            <textarea name="" id="" rows="8" style="width: 100%;" value="Message"></textarea>
+          </div>
+      </div class="text-center"  >
+      <input class="send-m text-center" style="width: 100%; margin-left: 370px !important;"  type="button" value="Send Message">
+    </div>
+  </div>
+</section>
 
+<!-- === end of contact us  section=====-->
+<!-- ===gallery  section=====-->
+<section class="gallery" id="gallery">
+  <h2 class=" mt-5 about-line  reservation-line">GALLERY</h2>
+  <p class="paragraph-choose ">Some photos from Our Restaurant</p>
+<div class="container-fluid">
+  <div class="row g-0">
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-1.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-2.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-3.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-4.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-5.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-6.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-7.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href=""> <img src="img/gallery-8.jpg" alt="" class="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ===end of gallery   section=====-->
+<!-- ===footer   section=====-->
+<footer class="p-5 bg-dark text-white text-center position-relative footer">
+  <div class="container">
+    <p class="lead ">Copyright &copy;Phoenix Restaurant</p>
+    <a href="#" class="position-absolute end-0 p-5">
+      <i class="bi bi-arrow-up-circle h1"></i>
+    </a>
+  </div>
+  <div class="social-media text-center">
+      <a href="#"><i class="bi bi-twitter  mx-1"></i></i></a>
+      <a href="#"><i class="bi bi-facebook mx-1"></i></i></a>
+      <a href="#"><i class="bi bi-linkedin mx-1"></i></i></a>
+      <a href="#"><i class="bi bi-youtube mx-1"></i></i></a>
+      <a href="#"><i class="bi bi-instagram mx-1"></i></i></a>
+  </div>
+</footer>
+<!-- ===end of footer  section=====-->
 
 
 

@@ -327,4 +327,109 @@ a:hover{
     font-family: 'playfair display',  serif !important;
     text-decoration: underline;
     text-decoration-color: #fff;
+   
 }
+.reservation{
+    background-image: -webkit-gradient(linear,left top, left bottom, from(rgba(48, 73, 109, 0.6) ));
+    background-image: linear-gradient(180deg, rgba(50,58,69,0.6), rgba(50,58,69,0.6)), url(img/table.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.5rem !important;
+    min-height: 500px !important;
+    background-color: #6d7177cb !important;
+}
+.container.row{
+    font-family: 'playfair display';
+}
+.chefs .paragraph-choose{
+    color: #e74c3c !important;
+    font-size: 36px !important;
+    font-family: 'playfair display',  serif !important;
+    text-decoration: underline;
+    text-decoration-color: #ffff
+}
+.card-title{
+    color: black !important;
+}
+.card1{
+    background-color:#6d7177cb !important;
+}
+.contact-us .info i {
+    font-size: 20px !important;
+    float: left !important;
+    width: 44px !important ;
+    height: 44px !important;
+    background: #cda45e !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 50px !important;
+    transition: all 0.3s ease-in-out !important;
+}
+.contact-us .info h4 {
+    padding: 0 0 0 60px !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    margin-bottom: 5px !important;
+    font-family: "Poppins", sans-serif !important;
+}
+.contact-us .info p {
+    padding: 0 0 0 60px!important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    color: #bab3a6 !important;
+}
+.open-hours{
+    margin-top: 40px ;
+}
+.email{
+    margin-top: 40px ;
+}
+.call{
+    margin-top: 40px ;
+}
+.send-m{
+     width: 130px !important;
+     padding: 12px;
+     margin-right: auto;
+     border: 2px solid #e74c3c;
+     border-radius: 50px;
+}
+.send-m:hover{
+    background-color: #e74c3c !important;
+    transition: 0.3s !important;
+    color: #fff;
+}
+.gallery .paragraph-choose{
+    color: #e74c3c !important;
+    font-size: 36px !important;
+    font-family: 'playfair display',  serif !important;
+
+    text-decoration-color: #ffff
+}
+.gallery{
+    border-top: 1px solid #fff;
+}
+.footer{
+    min-height: 210px !important;
+}
+.footer p{
+    font-family: 'playfair display', serif;
+    font-size: 28px!important;
+}
+.bi-twitter {
+    font-size: 29px !important;
+}
+.bi-facebook{
+    font-size: 29px !important;
+}
+.bi-linkedin{
+    font-size: 29px !important;
+}
+.bi-youtube{
+    font-size: 29px !important;
+}
+.bi-instagram{
+    font-size: 29px !important;
+}
+
